@@ -6,6 +6,9 @@
 :root{
   --headerColor: #232528;
   --tittleColor: #eaf6ff;  
+  --orange: #ffa400;
+  --blue: #009FFD;
+  --rblue: #2A2A72;
 }
 
 h1{
@@ -40,6 +43,7 @@ body{
 }
 
 .card{
+    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
