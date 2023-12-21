@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{
   --headerColor: #232528;
@@ -11,40 +12,31 @@
   --rblue: #2A2A72;
 }
 
-h1{
-    font-family: 'Silkscreen', sans-serif;
-    font-weight: 400;
-    color: var(--tittleColor);
-}
-p, h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    font-size: 22;
-}
-
-#subtext{
-    font-family: 'Ubuntu', sans-serif;
-}
-
-header{
-    background-color: var(--headerColor);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 body{
+    max-height: 100dvh;
+    max-width: 100dvw;
     background-color: gainsboro;
 }
+/*  HEADER SETUP    */
+.header_box{
+    background-color: var(--headerColor);
 
-#footer-msg{
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 33.3%;
+    text-align: center;
+    color: var(--tittleColor);
+}
+.header_content h1{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+.header_content h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer{
+    text-align: center;
 }
